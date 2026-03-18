@@ -8,7 +8,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Se você já tem PHP e Compositor instalado, você pode instalar o instalador Laravel via Compositor:
 
-compositora global global requerem laravel/instalador
+composer global require laravel/installer
 
 
 Criando um Aplicativo
