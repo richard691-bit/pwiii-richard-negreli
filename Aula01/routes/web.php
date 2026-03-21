@@ -12,3 +12,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 
 require __DIR__.'/settings.php';
+
+route::get('/about', function () {
+    return view ('teleporte');
+});
